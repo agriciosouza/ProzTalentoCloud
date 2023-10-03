@@ -1,0 +1,23 @@
+Num torneio de e-sports é necessário que todos os integrantes da mesma equipe tenham etiquetas que os identifiquem.
+Por exemplo, se o nome da equipe é “Os Lutadores”, o primeiro membro deve ter uma etiqueta “Os Lutadores – 1", o segundo membro “Os Lutadores – 2", e assim pela frente.
+Elabore um algoritmo que permita ao usuário inserir o nome da equipe, e imprime etiquetas para os 5 membros da equipe seguindo o exemplo mostrado acima.
+
+
+Algoritmo EtiquetasEquipe
+Var
+   nomeEquipe: caractere
+   i: inteiro
+
+Inicio
+   Escreva("Digite o nome da equipe:")
+   Leia(nomeEquipe)
+
+   Para i de 1 ate 5 faca
+      Escreva(nomeEquipe + " - " + i)
+   FimPara
+
+   Escreva("Etiquetas geradas com sucesso para a equipe " + nomeEquipe + ".")
+Fim
+
+//Neste algoritmo, usamos um loop "Para" que vai de 1 até 5 para gerar etiquetas para os 5 membros da equipe. 
+//O nome da equipe fornecido pelo usuário é concatenado com o número do membro para criar a etiqueta e depois é exibido na tela.
